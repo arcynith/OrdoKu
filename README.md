@@ -1,42 +1,39 @@
-# OrdoKu - Modern Offline Office Suite
+# OrdoKu
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Flutter](https://img.shields.io/badge/Flutter-^3.11.4-blue.svg)
 
-OrdoKu is a modern, high-performance, and lightweight offline office suite built with Flutter. Designed with a premium "Dark Luxury" aesthetic, OrdoKu provides a focused and professional workspace for document creation, local file management, and personal productivity. It is completely offline-first, ensuring your data remains private and secure on your device.
+OrdoKu is an offline-first desktop office suite built with Flutter. It focuses on providing a local, private workspace for document creation and file management without requiring an internet connection.
 
-## 🚀 Features
+## Preview
 
-- **Modern Office Suite:** A robust writer tool tailored for seamless document drafting and text processing.
-- **Dark Luxury UI/UX:** A stunning, premium dark mode aesthetic that reduces eye strain and provides a sleek environment.
-- **Offline-First Architecture:** No internet connection required. All files are stored and managed locally using SQLite and Hive.
-- **Advanced File Management:** Built-in file manager for seamless navigation, custom file naming, and auto-navigation capabilities.
-- **Cross-Platform Ready:** Built with Flutter, OrdoKu provides a native-like experience optimized for Desktop environments.
-- **Persistent Fullscreen:** Immersive fullscreen support via F11, designed for distraction-free writing.
+![OrdoKu Preview](preview/ordoku.png)
 
-## 🖼️ Preview
+## Features
 
-> **Note:** Add your preview images here (e.g., `![Preview](assets/preview.png)`)
+- **Document Writer:** A text processor tailored for local document drafting.
+- **Offline Environment:** Data is stored locally using SQLite and Hive, ensuring privacy.
+- **File Management:** Built-in system for navigation, custom file naming, and organization.
+- **Distraction-Free Mode:** Fullscreen support via the F11 key.
 
-## 🛠️ Tech Stack
+## Technical Stack
 
-- **Framework:** [Flutter](https://flutter.dev/)
-- **State Management:** [Riverpod](https://riverpod.dev/)
-- **Routing:** [GoRouter](https://pub.dev/packages/go_router)
-- **Local Database:** [Hive](https://docs.hivedb.dev/) & [sqflite](https://pub.dev/packages/sqflite)
-- **Editor:** [Flutter Quill](https://pub.dev/packages/flutter_quill)
-- **UI Icons:** [Lucide Icons](https://pub.dev/packages/lucide_icons) & Cupertino Icons
+- **Framework:** Flutter
+- **State Management:** Riverpod
+- **Routing:** GoRouter
+- **Storage:** Hive & sqflite
+- **Editor:** Flutter Quill
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
-Make sure you have Flutter installed on your machine.
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) >= 3.11.4
+
+- Flutter SDK (>= 3.11.4)
 
 ### Installation
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ordoku.git
+   git clone https://github.com/arcynith/ordoku.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -51,6 +48,6 @@ Make sure you have Flutter installed on your machine.
    flutter run
    ```
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
