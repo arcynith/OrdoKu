@@ -14,6 +14,10 @@ OrdoKu is a modern, high-performance, and lightweight offline office suite built
 - **Cross-Platform Ready:** Built with Flutter, OrdoKu provides a native-like experience optimized for Desktop environments.
 - **Persistent Fullscreen:** Immersive fullscreen support via F11, designed for distraction-free writing.
 
+## 🖼️ Preview
+
+> **Note:** Add your preview images here (e.g., `![Preview](assets/preview.png)`)
+
 ## 🛠️ Tech Stack
 
 - **Framework:** [Flutter](https://flutter.dev/)
